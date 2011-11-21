@@ -1,0 +1,5 @@
+cd /tmp
+wget -O java7.tar.gz  http://download.oracle.com/otn-pub/java/jdk/7u1-b08/jdk-7u1-linux-x64.tar.gz
+tar xf java7.tar.gz
+sudo mv /tmp/jdk1.7.0_01 /usr/lib/jvm/jdk1.7.0_01
+sudo ln -s /usr/lib/jvm/jdk1.7.0_01 /usr/lib/jvm/java-7-sun
